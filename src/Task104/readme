@@ -1,0 +1,32 @@
+==================================== TC 01 - Oturum Acma ======================================
+1. Kullanıcı Akakce.com sitesini tarayıcıda açar.
+2. Kullanıcı ana sayfada "Giriş Yap" veya benzer bir seçeneği bulur
+ve tıklar.
+3. Kullanıcı, test datada verilen geçerli bilgileri girer:
+4. "Giriş Yap" butonuna tıklar.
+
+1. E-posta: jolib64899@getasail.com
+2. Şifre: Jolib.jk1
+(doğru ve geçerli şifre)
+=================================== TC 02 - Gecersiz Sifre ===================================
+1. Kullanıcı Akakce.com sitesini tarayıcıda açar.
+2. Kullanıcı ana sayfada "Giriş Yap" veya benzer bir seçeneği bulur
+ve tıklar.
+3. Kullanıcı, geçersiz verileri girer:
+E-posta: Geçerli e-posta
+Şifre: InvalidPassword (geçersiz şifre)
+4. "Giriş Yap" butonuna tekrar tıklar
+ ================================== TC 03 - Gecersiz E-posta =================================
+1. Kullanıcı Akakce.com sitesini tarayıcıda açar.
+2. Kullanıcı ana sayfada "Giriş Yap" veya benzer bir seçeneği bulur
+ve tıklar.
+3. Kullanıcı, geçersiz verileri girer:
+E-posta: Invalid username (geçersiz username)
+Şifre: Geçerli şifre
+6. "Giriş Yap" butonuna tekrar tıklar.
+=================================== TC 04 - Null E-posta ve sifre ============================
+1. Kullanıcı Akakce.com sitesini tarayıcıda açar.
+2. Kullanıcı ana sayfada "Giriş Yap" veya benzer bir seçeneği bulur
+ve tıklar.
+3. Kullanıcı herhangi bir kullanıcı adı ve şifre girmeden, "Giriş Yap"
+butonuna tekrar tıklar.
